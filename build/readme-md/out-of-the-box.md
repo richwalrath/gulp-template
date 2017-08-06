@@ -1,17 +1,3 @@
-# gulp-template
-A simple scaffold for gulp based projects. Includes a couple of starter devDependencies and provides
-a flexible gulp scaffold to speed up the build development.
-
-#What this template does
-This template provides a customizable scaffold for your projects that are going to use **gulp**.
-
-It has a powerful markdown builder setup for building your **README.md** files or other markdown
-files.
-
-It also contains a list of useful development dependencies that you can add to your projects. These
-are dependencies covering a broad list of capabilities and will be described so you can determine
-quickly if you wish to use them or not.
-
 #Out-Of-The-Box Capabilities
 The following is a break-down of what you get out-of-the-box by using this template:
 
@@ -46,4 +32,3 @@ This template also provides a scaffolding to show you how to generate your own l
 Ideally if you use this template you would want to keep everything it provides but everyone has
 their own work-flow and opinions so feel free to fork this and create your own template. If you come
 up with something cool I'd love to see it.
-
