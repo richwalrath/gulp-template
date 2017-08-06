@@ -1,7 +1,7 @@
 {
   "name": "gulp-template",
   "version": "0.1.0",
-  "description": "A simple scaffold for gulp based projects. Includes a list of opinionated starter dependencies.",
+  "description": "A simple scaffold for gulp based projects. Includes a couple of starter devDependencies and provides a flexible gulp scaffold to speed up the build development.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,40 +17,8 @@
   "homepage": "https://github.com/richwalrath/gulp-template#readme",
   "dependencies": [],
   "devDependencies": [
-	"browser-sync",
-	"css-mqpacker",
-	"del",
-	"envify",
-	"opn",	
-	"gulp",
-	"gulp-base64",
-	"gulp-cached",
-	"gulp-concat",
-	"gulp-csso",
-	"gulp-eslint",
-	"gulp-file-include",
-	"gulp-if",
-	"gulp-imagemin",
-	"gulp-merge",
-	"gulp-minify-html",
-	"gulp-mocha",
-	"gulp-plumber",
-	"gulp-postcss",
-	"gulp-remove-logging",
-	"gulp-sass",
-	"gulp-rename",
-	"gulp-sourcemaps",
-	"gulp.spritesmith",
-	"gulp-substituter",
-	"gulp-svgmin",
-	"gulp-svgstore",
-	"gulp-uglify",
-	"gulp-watch",
-	"gulp-zip",
-	"postcss-import",
-	"postcss-url",
-	"postcss-cssnext",
-	"postcss-browser-reporter",
-	"postcss-reporter"
+    "gulp",
+    "markdown-include",
+    "chalk"
   ]
 }
