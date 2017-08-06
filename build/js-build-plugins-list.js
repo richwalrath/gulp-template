@@ -1,11 +1,11 @@
-const noop = function(){};
+const noop = function(){ return true; };
 const plugins = {
 	// Include all needed modules here for your tasks
 	// This reduces the need to load dependencies multiple times for each individual task file.
 
 	// Configuration settings can go here.
 	config: {
-		rootPath: './build/',
+		rootPath: './',
 		taskPath: 'gulp/tasks/'
 	},
 
@@ -20,13 +20,14 @@ const plugins = {
 	},
 	waitFor: function(taskName, waitList, fn){
 		var wrapper = function(){
-			console.info('Done waiting for: ' + waitList.length ? waitList.join(', ') : 'Nothing');
+			console.info(plugins.chalk.bgBlue.white(
+				' >> ' + taskName + ' is done waiting for: '
+				+ (waitList.length ? waitList.join(', ') : 'Nothing') + ' << '
+			));
 			// if the third argument was provided then call it otherwise call a dummy.
 			return (fn || noop)();
 		};
-		plugins.gulp.task(taskName, waitList, fn || function(){
-			return wrapper();
-		});
+		plugins.gulp.task(taskName, waitList, wrapper);
 	}
 }
 

@@ -5,7 +5,7 @@ module.exports = function(gulp, plugins){
   runTask('task-c');
 
   // You can define any of your tasks here just like you normally would.
-  gulp.tasks('task-a', ['task-c'], function(){
+  gulp.task('task-a', ['task-c'], function(){
     return true;
   });
 };
