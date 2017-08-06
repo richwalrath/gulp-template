@@ -28,6 +28,8 @@ different under-the-hood than **gulp.task**.
 This template also provides a scaffolding to show you how to generate your own large or complex
 **README.md** files through a build process.
 
+You can also copy the pattern to generate other markdown files pretty easily.
+
 ### Removing all this stuff
 Ideally if you use this template you would want to keep everything it provides but everyone has
 their own work-flow and opinions so feel free to fork this and create your own template. If you come
