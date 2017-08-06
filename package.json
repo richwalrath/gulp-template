@@ -1,0 +1,24 @@
+{
+  "name": "gulp-template",
+  "version": "0.1.0",
+  "description": "A simple scaffold for gulp based projects. Includes a list of opinionated starter dependencies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richwalrath/gulp-template.git"
+  },
+  "keywords": [
+    "gulp",
+    "scaffold",
+    "template"
+  ],
+  "author": "Rich Walrath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richwalrath/gulp-template/issues"
+  },
+  "homepage": "https://github.com/richwalrath/gulp-template#readme"
+}
