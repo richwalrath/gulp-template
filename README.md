@@ -2,11 +2,7 @@
 A simple scaffold for gulp based projects. Includes a couple of starter devDependencies and provides
 a flexible gulp scaffold to speed up the build development.
 
-<<<<<<< HEAD
 ## What this template does
-=======
-#What this template does
->>>>>>> 57a4be99fd3efe44080ce9aa80617e8ac4ce031b
 This template provides a customizable scaffold for your projects that are going to use **gulp**.
 
 It has a powerful markdown builder setup for building your **README.md** files or other markdown
@@ -16,28 +12,17 @@ It also contains a list of useful development dependencies that you can add to y
 are dependencies covering a broad list of capabilities and will be described so you can determine
 quickly if you wish to use them or not.
 
-<<<<<<< HEAD
 ## Out-Of-The-Box Capabilities
 The following is a break-down of what you get out-of-the-box by using this template:
 
 ### Baked-in dependencies
-=======
-#Out-Of-The-Box Capabilities
-The following is a break-down of what you get out-of-the-box by using this template:
-
-##Baked-in dependencies
->>>>>>> 57a4be99fd3efe44080ce9aa80617e8ac4ce031b
 * **gulp** - This is your task runner that you will use to build your projects.
 * **chalk** - An API for coloring console output. This shouldn't be too hard to get rid of if you
 don't want it.
 * **markdown-include** - Used to allow you to build complex markdown files easily. We used this with
 this template to build the **README.md** you're reading right now.
 
-<<<<<<< HEAD
 ### gulpfile.js scaffold
-=======
-##gulpfile.js scaffold
->>>>>>> 57a4be99fd3efe44080ce9aa80617e8ac4ce031b
 We provide a default **gulpfile.js** with a template showing how to utilize the plugins
 (**build/js-build-plugins-list.js**) object. The plugins object allows you to require packages just
 once and share those across your build process. You can also define helper functions and
@@ -53,19 +38,11 @@ as needed. There are very simple examples in how to write external task files in
 complete. This is mostly an organizational and code clarity function but it does function a little
 different under-the-hood than **gulp.task**.
 
-<<<<<<< HEAD
 ### README.md builder scaffold
 This template also provides a scaffolding to show you how to generate your own large or complex
 **README.md** files through a build process.
 
 ### Removing all this stuff
-=======
-##README.md builder scaffold
-This template also provides a scaffolding to show you how to generate your own large or complex
-**README.md** files through a build process.
-
-##Removing all this stuff
->>>>>>> 57a4be99fd3efe44080ce9aa80617e8ac4ce031b
 Ideally if you use this template you would want to keep everything it provides but everyone has
 their own work-flow and opinions so feel free to fork this and create your own template. If you come
 up with something cool I'd love to see it.
