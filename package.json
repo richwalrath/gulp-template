@@ -10,15 +10,47 @@
     "type": "git",
     "url": "git+https://github.com/richwalrath/gulp-template.git"
   },
-  "keywords": [
-    "gulp",
-    "scaffold",
-    "template"
-  ],
+  "keywords": ["gulp","scaffold","template","quick-build"],
   "author": "Rich Walrath",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/richwalrath/gulp-template/issues"
-  },
-  "homepage": "https://github.com/richwalrath/gulp-template#readme"
+  "bugs": {"url": "https://github.com/richwalrath/gulp-template/issues"},
+  "homepage": "https://github.com/richwalrath/gulp-template#readme",
+  "dependencies": [],
+  "devDependencies": [
+	"browser-sync",
+	"css-mqpacker",
+	"del",
+	"envify",
+	"opn",	
+	"gulp",
+	"gulp-base64",
+	"gulp-cached",
+	"gulp-concat",
+	"gulp-csso",
+	"gulp-eslint",
+	"gulp-file-include",
+	"gulp-if",
+	"gulp-imagemin",
+	"gulp-merge",
+	"gulp-minify-html",
+	"gulp-mocha",
+	"gulp-plumber",
+	"gulp-postcss",
+	"gulp-remove-logging",
+	"gulp-sass",
+	"gulp-rename",
+	"gulp-sourcemaps",
+	"gulp.spritesmith",
+	"gulp-substituter",
+	"gulp-svgmin",
+	"gulp-svgstore",
+	"gulp-uglify",
+	"gulp-watch",
+	"gulp-zip",
+	"postcss-import",
+	"postcss-url",
+	"postcss-cssnext",
+	"postcss-browser-reporter",
+	"postcss-reporter"
+  ]
 }
